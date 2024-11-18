@@ -56,6 +56,7 @@ export type Internationalization = {
 };
 export type ColumnView = {
     index: number;
+    key?: string,
     name?: string;
     isVisible?: boolean;
     isFrozen?: boolean;
